@@ -1,0 +1,6 @@
+node is built on V8 JS engine it is written in c++
+it is non-blocking, node.js uses events and callbacks this allows nodejs to handle 1000s of request
+Single thread executes the job
+DOM is not available in nodejs
+
+
