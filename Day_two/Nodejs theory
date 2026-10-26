@@ -1,0 +1,25 @@
+It is open source
+It is cross-platform Javascript Runtime environment
+It uses V8 Js engine
+It is single threaded, the app runs in a single process, without creating new thread for every request. Node.js provides a set of asynchronous I/O primitives in its standard library that prevent Javascript code from blocking
+Libraries are generally written using non-blocking paradigms
+Blocking is expection rather than norm in node
+
+instead of blocking the thread or wasting cpu cycle during I/O operation, node resumes the operation after response has came back
+
+This allows nodejs to handle thousands of concurrent connections wit a single server without introducing the burden of managing the thread concurrency
+
+Unique advantage of nodejs is that the front end devs can code in server-side and client side without learning a different language
+
+New ECMAscript standard can be used without any problems, such as updating the user's browser, we can decide which ECMAscript version by changing the node version 
+
+Asynchronous Programming
+
+Asynchronous programming is a technique that enables your program to start a potentially long-running task and still be able to be responsive to other events while that task runs, rather than having to wait until that task has finished.
+
+Many functions provided by the browser can potentially take a long time and therefore are asnychronous For example:
+    Making http requests using fetch()
+    Accessing a user's camera/microphone using getUserMedia()
+    Asking a user to select files using showOpenFilePicker()
+
+    
